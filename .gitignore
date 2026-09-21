@@ -1,0 +1,32 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive Terraform variables
+terraform.tfvars
+
+# AWS credentials
+.aws/
+credentials
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
